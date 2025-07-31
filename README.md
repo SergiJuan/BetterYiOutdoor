@@ -7,7 +7,7 @@ Yi disabled `telnetd` and serial (TTY) access in newer firmware updates. This pa
 
 ---
 
-## 🔍 Background
+## Background
 
 ### Problem:
 - Since firmware version `7.1.00.19A_201910181012`, Yi cameras no longer start `telnetd`.
@@ -20,7 +20,7 @@ Yi disabled `telnetd` and serial (TTY) access in newer firmware updates. This pa
 
 ---
 
-## ✅ Solution
+## Solution
 
 By placing a custom `config.sh` inside the `wifi` folder on the SD card, we can:
 - Kill cloud and P2P processes
@@ -31,7 +31,7 @@ By placing a custom `config.sh` inside the `wifi` folder on the SD card, we can:
 
 ---
 
-## 🛠 Features (vs original payload)
+## Features (vs original payload)
 
 | Feature                        | @rage2dev | BetterYiOutdoor |
 |-------------------------------|-----------|-----------------|
@@ -47,7 +47,7 @@ By placing a custom `config.sh` inside the `wifi` folder on the SD card, we can:
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. Format a **MicroSD card** (minimum 2GB, recommended 64GB) as **FAT32**
 
@@ -93,7 +93,7 @@ By placing a custom `config.sh` inside the `wifi` folder on the SD card, we can:
 
 ---
 
-## 📜 Example `config.sh`
+## Example `config.sh`
 
 See [`wifi/config.sh`](./wifi/config.sh) for the full version, but here's a summary of what it does:
 
@@ -110,7 +110,7 @@ See [`wifi/config.sh`](./wifi/config.sh) for the full version, but here's a summ
 
 ---
 
-## 📷 Tested Compatibility
+## Tested Compatibility
 
 This payload has been successfully tested on the following configuration:
 
@@ -123,7 +123,7 @@ This payload has been successfully tested on the following configuration:
 
 ---
 
-## 📝 Notes
+## Notes
 
 - This does **not** require firmware flashing or soldering
 - The camera must be connected via **WiFi**
